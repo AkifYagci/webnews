@@ -1,4 +1,4 @@
-// RSS URLs
+// RSS URL
 const rssUrls = {
   sondakika: [
     "https://www.denizhaber.com/rss",
@@ -9,11 +9,25 @@ const rssUrls = {
     "https://arkasnews.com/feed/"
   ],
   arkas: [
-    //"https://www.denizhaber.com/rss",
+    "https://www.denizhaber.com/rss",
     "https://www.denizticaretgazetesi.org/rss/genel-0",
     "https://www.7deniz.net/rss/guncel",
     "https://www.turksail.com/?format=feed&type=rss",
-    "https://arkasnews.com/feed/"
+    "https://arkasnews.com/feed/",
+    "https://www.cumhuriyet.com.tr/rss/10.xml",
+    "https://www.ntv.com.tr/teknoloji.rss",
+    "http://www.star.com.tr/rss/teknoloji.xml",
+    "www.yenisafak.com/rss?xml=teknoloji",
+    "https://www.virahaber.com/rss/",
+    "https://www.denizbulten.com/rss/",
+    //"https://www.denizhaber.com/rss/gundem",
+    //"https://www.denizticaretgazetesi.org/rss/gundem-1",
+    "https://www.7deniz.net/rss/sektorden",
+    "https://www.denizticaretgazetesi.org/rss/lojistik-14",
+    "https://www.denizhaber.com/rss/lojistik",
+    "https://www.7deniz.net/rss/lojistik",
+    //"https://www.denizticaretgazetesi.org/rss/dunya-2",
+    "https://www.denizhaber.com/rss/dunya"
   ],
   turkiye: [
     "https://www.egetelgraf.com/rss",
@@ -36,12 +50,21 @@ const rssUrls = {
   dunya: [
     "https://www.denizticaretgazetesi.org/rss/dunya-2",
     "https://www.denizhaber.com/rss/dunya",
-    "https://www.7deniz.net/rss/dunya"
+    //"https://www.7deniz.net/rss/dunya",
+    "https://www.marinelink.com/news/rss",
+    "https://www.marinetechnologynews.com/rss/news.aspx",
+    "https://www.maritime-executive.com/rss/all-news",
+    "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://gcaptain.com/rss/",
+    "https://www.ship-technology.com/feed/",
+    "https://www.independent.co.uk/news/world/rss",
+    "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    
   ],
   teknoloji: [
     "https://www.cumhuriyet.com.tr/rss/10.xml",
     "https://www.ntv.com.tr/teknoloji.rss",
-    "http://www.star.com.tr/rss/teknoloji.xml",
+    //"http://www.star.com.tr/rss/teknoloji.xml",
     "www.yenisafak.com/rss?xml=teknoloji"
   ],
   turkiye: [
@@ -51,6 +74,7 @@ const rssUrls = {
     "http://www.cumhuriyet.com.tr/rss/son_dakika.xml"
   ]
 }
+
 
 const newsContainer = document.getElementById("news-area");
 const categoryTitle = document.getElementById("category-title");
