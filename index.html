@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arkas Güncel Haber Platformu</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js" defer></script>
+</head>
+<body>
+  <div id="content">
+    <div class="left">
+      <div class="left-content">
+        <img src="img/logo_text.svg" alt="Arkas Logo" id="logo" onclick="window.scrollTo(0, 0)">
+        <ul class="category">
+          <li onclick="changeCategory('sondakika')" class="active">Son Dakika</li>
+          <li onclick="changeCategory('arkas')">Arkas</li>
+          <li onclick="changeCategory('denizcilik')">Denizcilik</li>
+          <li onclick="changeCategory('teknoloji')">Teknoloji</li>
+          <li onclick="changeCategory('dunya')">Dünya</li>
+          <li onclick="changeCategory('turkiye')">Türkiye</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="right-menu">
+        <div class="menu-area">
+          <div id="webapp_cover">
+            <div id="menu_button">
+              
+              <label for="menu_checkbox" id="menu_label">
+                <div id="menu_text_bar"></div>
+              </label>
+            </div>
+          </div>
+        </div>
+        
+        <div class="right-category-area">
+          <div class="right-category-close"></div>
+          
+        </div>
+      </div>
+
+      <div class="right-top">
+        <div class="right-info">
+          <p class="wellcome"></p>
+          <p class="clock"></p>
+        </div>
+        <!-- ... (previous code) -->
+<div class="right-info">
+  <p class="wellcome"></p>
+  <p class="clock"></p>
+</div>
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://tr.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Tüm piyasaları TradingView üzerinden takip edin</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "description": "Dolar",
+      "proName": "CAPITALCOM:USDTRY"
+    },
+    {
+      "description": "Euro",
+      "proName": "CAPITALCOM:EURTRY"
+    },
+    {
+      "description": "Sterlin",
+      "proName": "CAPITALCOM:GBPTRY"
+    },
+    {
+      "description": "Gram Altın",
+      "proName": "FX_IDC:XAUTRYG"
+    },
+    {
+      "description": "Gümüş",
+      "proName": "FX_IDC:XAGTRY"
+    },
+    {
+      "description": "Bitcoin",
+      "proName": "BINANCE:BTCUSD"
+    },
+    {
+      "description": "Etherium",
+      "proName": "BINANCE:ETHUSD"
+    },
+    {
+      "description": "Ripple",
+      "proName": "BINANCE:XRPUSD"
+    },
+    {
+      "description": "Brent",
+      "proName": "TVC:UKOIL"
+    },
+    {
+      "description": "Bist 100",
+      "proName": "BIST:XU100"
+    }
+  ],
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "locale": "tr"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+
+        <button id="last-24h-button">Son 24 Saat</button>
+
+        <h1 id="category-title"></h1>
+      </div>
+
+      <div id="news-area"></div>
+
+      <div class="pagination" id="pagination"></div>
+
+      <footer>
+        <p>© Copyright 2024 - Powered by <a href="https://arkasline.com.tr/" target="_blank">Arkas Line</a></p>
+        <div class="social">
+          <a href="https://www.github.com/akifyagci" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="https://www.instagram.com/arkasline/" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/arkasline" target="_blank"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </footer>
+    </div>
