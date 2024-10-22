@@ -87,7 +87,7 @@ const itemsPerPage = 15;
 
 // Cache object and duration
 const newsCache = {};
-const CACHE_DURATION = 1 * 60 * 1000; // 1 minute
+const CACHE_DURATION = 5 * 60 * 1000; // cache süresini 5 dkya cıkardım + offline cache eklenebilirv
 
 // Fetch news function
 const fetchNews = async (category, page = 1, last24h = false) => {
