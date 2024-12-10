@@ -9,7 +9,7 @@ const rssUrls = {
     "https://arkasnews.com/feed/"
   ],
   arkas: [
-    "https://www.denizhaber.com/rss",
+    //"https://www.denizhaber.com/rss",
     "https://www.denizticaretgazetesi.org/rss/genel-0",
     "https://www.7deniz.net/rss/guncel",
     "https://www.turksail.com/?format=feed&type=rss",
@@ -19,7 +19,7 @@ const rssUrls = {
     //"http://www.star.com.tr/rss/teknoloji.xml",
     //"www.yenisafak.com/rss?xml=teknoloji",
     "https://www.virahaber.com/rss/",
-    "https://www.denizbulten.com/rss/",
+    //"https://www.denizbulten.com/rss/",
     "https://www.denizhaber.com/rss/gundem",
     "https://www.denizticaretgazetesi.org/rss/gundem-1",
     //"https://www.7deniz.net/rss/sektorden",
